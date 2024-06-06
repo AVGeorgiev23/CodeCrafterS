@@ -1,6 +1,6 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: url('https://images.hdqwalls.com/wallpapers/fibonacci-sequence-night-dark-dunes-5k-sf.jpg');
+    background: url(img/background.jpg);
     background-size: cover;
   }
