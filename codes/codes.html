@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="codes.css">
+    <ul class="tabs">
+
+        <li class="tab">
+            <input type="radio" name="tabs" checked="checked" id="tab1" />
+            <label for="tab1">C++ Code</label>
+            <div id="tab-content1" class="content">
+                <h1>Fibonacci sequence in C++</h1>
+                <hr />
+                <h3>Simple code for Fibonacci sequence</h3>
+                <br />
+                <pre>
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 0;
+    int b = 1;
+    unsigned int sum = 0;
+
+    for (int i = 0; i <= 100; i++) {
+        sum = a + b;
+        cout << i << ": " << sum << endl;
+        a = b;
+        b = sum;
+    }
+
+}
+                </pre>
+
+                <h3>Result of this code:</h3>
+                <pre>
+0: 1
+1: 2
+2: 3
+3: 5
+4: 8
+5: 13
+6: 21
+7: 34
+8: 55
+9: 89
+10:144
+...
+100: 927372692193079200000
+                </pre>
+
+
+                <h3>lets show devisions</h3>
+                <pre>
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+    double a = 0;
+    double b = 1;
+    double dev = 0;
+
+    for (int i = 0; i <= 100; i++) {
+        double sum = a + b;
+        dev = a / b;
+        cout << i << ": " << setprecision(25) << dev << endl;
+        a = b;
+        b = sum;
+    }
+
+}                    
+                </pre>
+and result
+                <pre>
+0: 0
+1: 1
+2: 0.5
+3: 0.6666666666666666296592325
+4: 0.5999999999999999777955395
+5: 0.625
+6: 0.6153846153846154187760931
+7: 0.6190476190476190687661529
+8: 0.6176470588235294378876006
+9: 0.6181818181818181656694833
+10: 0.6179775280898875955415406
+11: 0.6180555555555555802271783
+12: 0.6180257510729614267575016
+13: 0.6180371352785145599995076
+14: 0.6180327868852458772508385
+15: 0.6180344478216818204785454
+....
+100: 0.6180339887498949025257389                    
+                </pre>
+            </div>
+        </li>
+
+        <li class="tab">
+            <input type="radio" name="tabs" id="tab2" />
+            <label for="tab2">Two</label>
+            <div id="tab-content2" class="content">
+                <h1>Tab content 2</h1>
+                <hr />
+                <h3>Ut bibendum augue vel magna rhoncus</h3>
+                <br />
+                <p>Nam cursus, massa ac imperdiet posuere, mauris metus gravida ligula, et rutrum ligula mi ut tellus.
+                    Quisque elit dolor, sagittis ac purus accumsan, sagittis rhoncus felis. Morbi nec bibendum arcu, sit
+                    amet pharetra orci. Nulla pulvinar ultrices quam. Cras nulla erat, eleifend non euismod vel,
+                    accumsan quis lacus. Ut bibendum augue vel magna rhoncus, sed rutrum massa vulputate. Nullam lectus
+                    diam, venenatis vel elit vel, ornare fermentum metus. Praesent euismod non mauris et dignissim. Sed
+                    in diam nec diam pellentesque lacinia at vitae lorem. Quisque et neque condimentum, viverra dolor
+                    mollis, feugiat justo.</p>
+            </div>
+        </li>
+
+        <li class="tab">
+            <input type="radio" name="tabs" id="tab3" />
+            <label for="tab3">Three</label>
+            <div id="tab-content3" class="content">
+                <h1>Tab content 3</h1>
+                <hr />
+                <h3>Praesent ac accumsan urna. Mauris lorem purus</h3>
+                <br />
+                <p>Suspendisse vulputate nunc ac pretium pulvinar. Morbi pretium quis erat non vehicula. Phasellus porta
+                    dolor velit, vitae consectetur nisl consequat at. Praesent ac accumsan urna. Mauris lorem purus,
+                    pharetra ac ultrices sit amet, pulvinar sed sapien. Phasellus ornare laoreet dui, et eleifend risus
+                    tristique non. Donec lectus dolor, iaculis non tellus vitae, venenatis sagittis purus. Sed at
+                    rhoncus neque. Suspendisse gravida est eu consectetur tincidunt. Aliquam fermentum gravida fringilla
+                </p>
+            </div>
+        </li>
+
+        <li class="tab">
+            <input type="radio" name="tabs" id="tab4" />
+            <label for="tab4">Four</label>
+            <div id="tab-content4" class="content">
+                <h1>Tab content 4</h1>
+                <hr />
+                <h3>Class aptent taciti sociosqu ad litora torquen</h3>
+                <br />
+                <p>Fusce in malesuada ligula. Donec eleifend dui eu mi condimentum interdum. Cras justo tortor,
+                    imperdiet at ante vel, adipiscing venenatis nisl. Donec bibendum porttitor ipsum. Mauris turpis
+                    justo, tristique eget ipsum vel, volutpat lobortis velit. Aliquam sit amet ultrices eros. Vivamus ut
+                    diam sed leo pretium bibendum et sit amet tortor. Proin facilisis urna lobortis dictum semper. Nulla
+                    a imperdiet eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos. Donec et vehicula elit. Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mu</p>
+            </div>
+        </li>
+
+    </ul>
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
