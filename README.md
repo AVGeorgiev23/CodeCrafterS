@@ -22,10 +22,9 @@
 ## 📄 Documents
 
 ### Documentation
-[Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/aavezirova22_codingburgas_bg/EWbGJ6KsUB9HnZHD-E-Ijh0BrByyMGcuxl-otVdeO3_y7w?e=FWR9tT)
-
+[Documentation]
 ### Presenting
-[Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/aavezirova22_codingburgas_bg/ETohh8QbUqdNq_P6ST8vo5sBDhTEEiH6NuyTGfN3c4T3Qw?e=Z64Wv4)
+[Presentation]
 ## 📥 Installing
 https://github.com/AVGeorgiev23/CodeCrafterS
 ### To install our project on your machine you just need to clone it. This can be done by In the CMD:
