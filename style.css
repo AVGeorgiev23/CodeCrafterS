@@ -56,8 +56,6 @@ IMG {
 .block>ul>li {
   font-size: 16pt;
   line-height: 1.5;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
@@ -176,7 +174,6 @@ a.active {
   text-align: justify;
 }
 
-<<<<<<< Updated upstream
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -377,16 +374,10 @@ a.active {
 
 .code {
   font-size: 13pt;
-=======
->>>>>>> Stashed changes
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
 }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
-
 .img-grid {
   width: 100vh;
   display: grid;
@@ -499,4 +490,3 @@ a.active {
   margin-right: 20px;
   text-align: justify;
 }
->>>>>>> Stashed changes
