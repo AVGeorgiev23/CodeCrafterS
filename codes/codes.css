@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding-left: 10px;
 }
 
 h1, h3{
@@ -9,7 +9,7 @@ h1, h3{
 }
 
 .tabs{
-    width: 600px;
+    width: 80%;
     display: block;
     margin: 40px auto;
     position: relative;
