@@ -31,7 +31,14 @@ IMG {
     
   }
   h2{
-    font-size: 36pt;
+    font-size: 19pt;
+    
+  }
+
+  span { 
+    color: rgb(55, 55, 235);
+    background-color: black;
+    
   }
 
 
