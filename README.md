@@ -25,7 +25,7 @@ Used technologies for the site development
 
 Documentation
 
-[Documentation]
+[Documentation](https://github.com/AVGeorgiev23/CodeCrafterS/raw/main/docs/Code%20Crafters%20Documentation.docx)
 
 Presenting
 
